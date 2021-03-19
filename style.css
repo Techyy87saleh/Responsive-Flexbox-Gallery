@@ -1,0 +1,30 @@
+ body{
+
+  font-family: 'Roboto', sans-serif;
+ }
+
+ .content h1{
+    
+  text-align:center;
+
+ }
+  
+ .images{
+
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  }
+
+  .single-img{
+      
+    padding:0 25px 20px;
+  }
+
+  .single-img:hover{
+    opacity:0.5;
+    transition:0.5s all;
+    cursor:pointer;
+  }
